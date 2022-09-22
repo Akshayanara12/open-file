@@ -1,0 +1,6 @@
+open (FILE, '<', "albumin.txt") or die "could not open log file\n";
+print <FILE>;
+close (FILE);
+open (FL, '<', "actin.txt") or die "could not open log file\n";
+print <FL>;
+close (FL);
